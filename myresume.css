@@ -132,6 +132,12 @@ p {
     text-indent: 65px;
 }
 
+.p4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-indent: 30px;
+}
+
 .award {
     display: flex;
     flex-wrap: wrap;
