@@ -108,6 +108,34 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5rem;
 }
 
+.base1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    word-spacing:275px;
+    text-indent: 135px;
+}
+
+.base2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    word-spacing:307px;
+    text-indent: 135px;
+}
+
+.base3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    word-spacing:292px;
+    text-indent: 135px;
+}
+
+.base4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    word-spacing:197px;
+    text-indent: 135px;
+}
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
