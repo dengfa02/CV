@@ -47,7 +47,7 @@
         <header class="resume-header pt-4 pt-md-0">
             <div class="media flex-column flex-md-row">
                 <a href="https://imgbb.com/"><img src="https://i.ibb.co/7Y59TXs/me-z.jpg" alt="me_z" border="0"
-                                                  width="220" height="220">
+                                                  width="200" height="220">
                 </a>
                 <img class="mr-3 img-fluid picture mx-auto" src="" alt="">
                 <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
@@ -111,7 +111,7 @@
                             <td>机械工程(学士 - 本科)</td>
                         </tr>
                         <tr>
-                            <td>2022.9-至今</td>
+                            <td>2022.9至今</td>
                             <td>北京交通大学</td>
                             <td>机械电子工程(硕士 - 研究生)</td>
                         </tr>
@@ -141,61 +141,62 @@
 
                                             </div>
                                         </div>
-                                        <div class="resume-position-time">2021至今</div>
+                                        <div class="resume-position-time">2022至今</div>
                                     </div><!--//resume-timeline-item-header-->
                                     <div class="resume-timeline-item-desc">
                                         <h5 class="resume-position-title font-weight-bold mb-2">
-                                            基于卫星AIS数据的海上大型船舶行为模式识别(中电科五十四所)</h5>
+                                            基于AIS数据的港口合作船舶碰撞预警(未结题)</h5>
                                         <p>
-                                            项目是与中国电子科技集团网络通信研究院合作项目《基于卫星探测大数据的船舶监测预警应用》的子项目，主要研究船舶行为识别和行为模式识别问题，为后续的异常行为检测和碰撞预警提供技术支持。</p>
+                                            项目是与中国电子科技集团网络通信研究院合作项目《基于卫星探测大数据的船舶监测预警应用》的子项目，主要研究港口邻近区域船舶轨迹预测及碰撞预警问题。</p>
                                         <ul>
                                             <li>
-                                                <div class="p2">对船舶不同的行为语义进行数学建模</div>
+                                                <div class="p2">提取港口海域具有时空交集的非停留船舶轨迹；清洗原始AIS数据，清除范围异常值、缺失值等。</div>
                                             </li>
                                             <li>
                                                 <div class="p2">
-                                                    对原始AIS数据进行数据清洗，包括滑动滤波处理噪声数据、对缺失值进行插值处理等
+                                                    基于船舶运动属性与时间信息进行航迹段划分；设定阈值清除漂移点及异常点；处理范围性的航迹纠缠问题；对轨迹点插值后进行平滑滤波及重采样处理。
                                                 </div>
                                             </li>
                                             <li>
-                                                <div class="p2">编写程序对船舶轨迹数据进行航迹段划分</div>
+                                                <div class="p2">根据不同方法量化碰撞风险，设定碰撞预警条件。</div>
                                             </li>
                                             <li>
                                                 <div class="p2">
-                                                    对比不同聚类算法，对船舶轨迹段进行聚类处理，得到船舶在渤海海域的典型行为模式
+                                                    提取具有高碰撞风险轨迹对，分别预测其轨迹，判断是否满足时空约束给予预警。
                                                 </div>
                                             </li>
+                                            <li>
+                                                <div class="p2">小论文：
+                                                    <strong>Chuiyi Deng</strong>, Shuangxin Wang, Jingyi Liu, Hongrui Li. Graph Signal
+                                                    Variation Detection: A Novel Approach for Identifying and Reconstructing Ship AIS Tangled
+                                                    Trajectories[J]. Ocean Engineering.(在审)
+                                                </div>
+                                            </li>
+
                                         </ul>
+
                                         <br>
                                         <h5 class="resume-position-title font-weight-bold mb-2">
-                                            卫星故障预测的时间序列分析技术(中电科五十四所)</h5>
+                                            卫星故障预测的时间序列分析技术(已结题)</h5>
                                         <p>
-                                            项目基于卫星遥测数据，通过数据处理、序列模式挖掘、预测建模及深度学习算法，开发面向卫星故障预测的时间序列分析模块，为在轨卫星健康管理平台提供技术支撑。</p>
+                                            项目与中国电子科技集团第54研究所合作完成。基于卫星遥测数据，通过数据处理、序列模式挖掘、预测建模及深度学习算法，开发面向卫星故障预测的时间序列分析模块，为在轨卫星健康管理平台提供技术支撑。</p>
                                         <ul>
                                             <li>
-                                                <div class="p2">从Oracle数据库导入本地并备份遥测数据</div>
+                                                <div class="p2">根据遥测数据的特征，确定电力系统的拓扑结构——“太阳阵-蓄电池组结构”。</div>
                                             </li>
                                             <li>
                                                 <div class="p2">
-                                                    根据遥测数据的特征，确定电力系统的拓扑结构——“太阳阵-蓄电池组结构”
+                                                    分析KX-02卫星电力系统太阳阵的典型故障，建立故障模型，针对相应的故障机理注入故障(电路故障、展开机构故障、对日定向驱动机构故障)。
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="p2">
-                                                    主要分析该拓扑结构中太阳电池阵，次要分析蓄电池组的数学模型
+                                                    尝试小波变换、傅里叶分析等方法提取传感数据频域特征。
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="p2">
-                                                    分析KX-02卫星电力系统太阳阵的典型故障，建立故障模型，针对相应的故障机理注入故障（电路故障、展开机构故障、对日定向驱动机构故障）
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="p2">使用升维算法（MTF, GAF, RP）提取遥测数据的升维特征</div>
-                                            </li>
-                                            <li>
-                                                <div class="p2">基于小样本算法（Siamese Network, Triplet
-                                                    Network）的电源系统遥测数据升维特征故障检测
+                                                    采用支持向量机(SVM)分类电流电压故障样本，对比马尔可夫变迁场(MTF)升维后分类效果。
                                                 </div>
                                             </li>
                                         </ul>
@@ -210,40 +211,36 @@
                                             <h3 class="resume-position-title font-weight-bold mb-1">专业技能</h3>
                                             <div class="resume-company-name ml-auto"></div>
                                         </div>
-                                        <div class="resume-position-time">2018 — 至今</div>
+                                        <div class="resume-position-time">2018至今</div>
                                     </div>
                                     <div class="resume-timeline-item-desc">
 
                                         <ul>
                                             <li>
-                                                <strong>外语能力：</strong>英语CET-6(514)、全国硕士研究生统一招生考试英语82分
+                                                <strong>外语能力：</strong>英语CET-6(514)、全国硕士研究生统一招生考试英语82分。
                                             </li>
                                             <li>
-                                                <div class="p2"><strong>Python：</strong>熟练使用numpy、Pandas、os等库；
+                                                <div class="p2"><strong>Python：</strong>熟练使用numpy、Pandas、matplotlib等库；
                                                 </div>
                                                 <div class="p3">基于Pytorch的深度学习算法开发；<br></div>
                                                 <div class="p3">使用request实现一键校园网登录(爬虫)；<br></div>
                                                 <div class="p3">
-                                                    基于OpenAI的API开发了终端聊天机器人(类似于ChatGpt)，项目已
+                                                    基于OpenAI的API开发了终端聊天机器人(类似于Chatgpt)，项目已
                                                 </div>
                                                 <div class="p3">上传至
                                                     <a href="https://github.com/dengfa02/APIGPT"
-                                                       target="_blank">Github</a></div>
-                                            </li>
-                                            <li>
-                                                <div class="p2"><strong>数据库：</strong>项目算法开发数据调用自Oracle数据库(使用cx_Oracle与Python交互)
-                                                </div>
+                                                       target="_blank">Github。</a></div>
                                             </li>
                                             <li>
                                                 <div class="p2"><strong>MATLAB：</strong>与Carsim2020联合仿真实现简单AEB算法；
                                                 </div>
-                                                <div class="p1">采用PID控制器实现对目标机器人的追踪仿真</div>
+                                                <div class="p1">采用PID控制器实现对目标机器人的追踪仿真。</div>
                                             </li>
                                             <li>
-                                                <div class="p2"><strong>正在学习：</strong>python学习：网络爬虫、Flask后端开发
+                                                <div class="p2"><strong>正在学习：</strong>python学习：数据结构、图神经网络、Pytorch深度学习框架。
                                                 </div>
-                                                <div class="p1">Hadoop大数据：HBase、PySpark(Spark为python提供的API)</div>
-                                                <div class="p1">科研生活：正在积极撰写论文，尝试投稿与发表</div>
+                                                <div class="p1">数学理论：图论、矩阵分析、数值分析、概率与信息论。</div>
+                                                <div class="p1">科研生活：针对船舶特性提出创新算法；论文写作及实验设计。</div>
                                             </li>
                                         </ul>
                                     </div>
@@ -251,21 +248,23 @@
                                 <article class="resume-timeline-item position-relative pb-5">
                                     <div class="resume-timeline-item-header mb-2">
                                         <div class="d-flex flex-column flex-md-row">
-                                            <h3 class="resume-position-title font-weight-bold mb-1">获奖及荣誉</h3>
+                                            <h3 class="resume-position-title font-weight-bold mb-1">荣誉及成果</h3>
                                             <div class="resume-company-name ml-auto"></div>
                                         </div>
                                         <div class="resume-position-time">2018-2023</div>
                                     </div>
                                     <div class="award">
+                                        <div class="time">2023.6</div>
+                                        <div class="info">《Ocean Engineering》(船舶领域top期刊)审稿人</div>
                                         <div class="time">2022.12</div>
                                         <div class="info">北京交通大学二等奖学金</div>
                                         <div class="time">2021.11</div>
                                         <div class="info">北京交通大学学业优秀奖学金</div>
                                         <div class="time">2021.6</div>
-                                        <div class="info">solidworks软件CSWA建模认证</div>
+                                        <div class="info">Solidworks软件CSWA建模认证</div>
                                         <div class="time">2021.6</div>
                                         <div class="info"><a
-                                                href="https://v.youku.com/v_show/id_XNTk0NTkxODgxNg==.html">大学生创新训练项目”自动跟随避障载重小车“国家级项目结题</a>
+                                                href="https://v.youku.com/v_show/id_XNTk0NTkxODgxNg==.html">大学生创新训练项目《自动跟随避障载重小车》国家级项目结题</a>
                                         </div>
 
 
@@ -284,7 +283,7 @@
                                     <div class="resume-timeline-item-desc">
                                         <div class="p4">
                                             对新事物有较强的好奇心与探索欲，善于学习新技术，有较强的逻辑能力；</br>
-                                            <p>兴趣爱好广泛，善于团队协作，乐观开朗，对工作和生活充满热情</p>
+                                            <p>兴趣爱好广泛，善于团队协作，乐观开朗，对工作和生活充满热情。</p>
                                         </div>
 
                                     </div>
@@ -330,7 +329,7 @@
                                         <div class="resume-skill-name">SQL</div>
                                         <div class="progress resume-progress">
                                             <div class="progress-bar theme-progress-bar-dark" role="progressbar"
-                                                 style="width: 40%" aria-valuenow="25" aria-valuemin="0"
+                                                 style="width: 20%" aria-valuenow="25" aria-valuemin="0"
                                                  aria-valuemax="100"></div>
                                         </div>
                                     </li>
@@ -360,7 +359,7 @@
                                         <div class="resume-skill-name">Solidworks</div>
                                         <div class="progress resume-progress">
                                             <div class="progress-bar theme-progress-bar-dark" role="progressbar"
-                                                 style="width: 65%" aria-valuenow="25" aria-valuemin="0"
+                                                 style="width:75%" aria-valuenow="25" aria-valuemin="0"
                                                  aria-valuemax="100"></div>
                                         </div>
                                     </li>
