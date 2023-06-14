@@ -28,13 +28,23 @@
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
+@page {
+size: A4;
+margin: 0;
+}
+html,body{
+    margin:0;/* 覆盖UA设置 */
+    min-height:100%;/* 最小高度100% */
+    min-width:100%;/* 最小宽度100% */
+}
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
+.section1 {
+  margin-bottom: 240px; /* 设置第一个部分的下外边距为100像素 */
+}
 html {
     font-family: sans-serif;
     line-height: 1.15;
